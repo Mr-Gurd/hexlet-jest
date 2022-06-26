@@ -1,6 +1,6 @@
 import reverse from '../src/index.js';
 
 test('reverse', () => {
-    expect(reverse('hello')).toEqual('olleh');
+    expect(reverse('hellou')).toEqual('uolleh');
     expect(reverse('')).toEqual('');
 });
